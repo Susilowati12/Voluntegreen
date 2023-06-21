@@ -1,0 +1,50 @@
+* {
+  margin: none;
+  padding: none;
+  text-decoration: none;
+}
+.bg-EditProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 95px;
+  /* flex-flow: row wrap; */
+  background-color: blanchedalmond;
+}
+.form-profile {
+  margin-top: 20px;
+  border-radius: 4px;
+  padding: 50px;
+  /* margin-left: 2vh;
+  margin-right: 2vh; */
+  background-color: white;
+}
+.input-profile {
+  border-radius: 4px;
+}
+.form-input {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.btn-edit {
+  border-radius: 4px;
+}
+.jk {
+
+  height: 36px;
+  width: 240px;
+}
+.btn{
+  display: flex;
+  /* justify-content: flex-end */
+  align-items: flex-end;
+
+ 
+  width: 24vh;
+}
+/* @media only screen and (max-width: 1100px) {
+  .jk {
+    margin-top: 12px;
+  }
+} */

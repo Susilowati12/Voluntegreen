@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-md{
+    background-color: aqua;
+    margin-right: 1rem;
+}
+
+#gambar, #ket-gambar{
+    margin-top: 2rem;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+#gambar{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#ket-gambar{
+    font-weight: bolder;
+    font-size: 60px;
+    margin-top: 50px;
+    padding-left: 2rem;
+}
+
+@media screen and (max-width: 768px){
+    #ket-gambar{
+        font-size: 45px;
+    }
+    #gambar, #gambar2{
+        width: auto;
+    }
+    #judul{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    #ket-gambar{
+        font-size: 35px;
+    }
+}
+
+.col{
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+#gambar2{
+    border-radius: 20px;
+    width: 35rem ;
+    height: 20rem;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    justify-content: center;
+}
+
+
+#quotes{
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-bottom: 2rem;
+    font-size: 20px;
+}
+
+@media screen and (min-width:200px) {
+    #quotes{
+        font-size: 12px;
+        padding-top: 2rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width:700px) {
+    #quotes{
+        font-size: 16px;
+        padding-top: 2rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width:990px) {
+    #quotes{
+        font-size: 18px;
+        padding-top: 2rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width:991px) {
+    #quotes{
+        font-size: 20px;
+        padding-top: 2rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-bottom: 2rem;
+    }
+}
+
+
+#quotes2{
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-bottom: 2rem;
+    font-size: 20px;
+}
+
+.flip-box{
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.flip-box-front,
+.flip-box-back{
+    border-radius: 70px;
+    transition:transform 0.5s cubic-bezier(.4, .2, .2, 1);
+    backface-visibility: hidden;
+    min-height: 450px;
+    min-width: 350px;
+    justify-content: center;
+    margin-left: .5rem;
+    margin-right: 1.5rem;
+}
+
+
+@media screen and (max-width: 900px){
+    .flip-box-back, .flip-box-front{
+        max-width: 350px;
+        align-items: center;
+    }
+}
+
+.flip-box-front{
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-front{
+    transform:rotateY(-180deg) ;
+    transform-style: preserve-3d;
+}
+
+.flip-box-back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-back{
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+}
+
+.flip-box .inner{
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.flip-box-header{
+    padding-top: 3rem;
+    color: white;
+}
+
+#img-3R{
+    padding-top: 5rem;
+}
+
+#text-card {
+    color: white;
+    padding-top: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#judul{
+    font-size: 52px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+@media screen and(max-width: 768px){
+    #judul{
+        font-size: 30px;
+    }
+}
+
+.col p{
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+#judul2{
+    font-size: 52px;
+    font-weight: bolder;
+    padding-left: .5rem ;
+}
+
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        #gambar-pengendalian{
+            width: 20em;
+        }
+        #judul2{
+            font-size: 30px;
+            margin-top: -40px;
+        }
+    }
+    @media only screen and (min-width: 768px) {
+        /* For mobile phones: */
+        #gambar-pengendalian{
+            width: 30em;
+        }
+        #judul2{
+            font-size: 30px;
+            margin-top: -40px;
+        }
+    }
+
+    @media only screen and (min-width: 900px) {
+        /* For mobile phones: */
+        #gambar-pengendalian{
+            width: 35em;
+        }
+        #judul2{
+            font-size: 35px;
+            margin-top: -40px;
+        }
+    }
+
+#pencemaran{
+    text-align: justify;
+}
+
+.himbauan{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+.himbauan-2{
+    text-align: center;
+    color: black;
+    font-size: 22px;
+}
+
+#whatDoTheSay{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#gambar-they-say{
+    padding-left: 8rem;
+}
+#gambar-they-say1{
+    padding-left: 1rem;
+}
+
+#peran-hutan{
+    margin-top: 4rem;
+}
+
+#menjaga-hutan1{
+    padding-left: 0rem;
+    color: #FDE3B3;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+#menjaga-hutan2{
+    padding-left: 4rem;
+    color: #FDE3B3;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#menjaga-hutan-isi{
+    padding-left: 0rem;
+    color: white;
+    margin-right: 3rem;
+    font-size: 20px;
+    margin-bottom: 4rem;
+    text-align: left;
+}

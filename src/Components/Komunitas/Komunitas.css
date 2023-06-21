@@ -1,0 +1,517 @@
+body{
+    font-family: 'poppins';
+}
+
+.cardKomunitas{
+    margin-top: 30px;
+    margin-right: 340px;
+    margin-left: 340px;
+    margin-bottom:100px;
+    box-shadow: 1px 2px 4px 1.5px grey;
+    border-radius: 16px;
+    background-color: white;
+}
+
+#cardUpload{
+    margin-bottom: -2vh;
+}
+
+#userProfile{
+    width: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 1vh;
+}
+
+#namaUser{
+    margin-top: 2vh;
+}
+
+.waktuUploaded{
+    font-size: small;
+    margin-top: -1vh;
+}
+
+.daerahUpload{
+    margin-top: 2vh;
+    margin-left: 20px;
+    color: #666666;
+    font-weight: 600;
+}
+
+.titleUpload{
+    margin-top: 2vh;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+#userProfileUploaded{
+    width: 52px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 1vh;
+}
+
+.contentUpload{
+    margin-left: 2vh;
+    margin-top: 1vh;
+}
+
+.formInput{
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 1vh;
+    border-radius: 20px;
+    width: 70vh;
+    height: 6vh;
+    margin-bottom: 1vh;
+    text-align: left;
+}
+
+.formInput p{
+    margin-top: 1vh;
+    margin-left: 1vh;
+    color: rgba(0,0,0,.6);
+}
+
+.buttonUpload{
+    border-radius: 20px;
+    width: 140px;
+    height: 26px;
+    background-color: white;
+    margin-bottom: 1vh;
+}
+
+.buttonUpload2{
+    border-radius: 20px;
+    width: 140px;
+    height: 26px;
+    background-color: white;
+    margin-bottom: 1vh;
+    margin-left: 10vh;
+}
+
+.iconImgUpload{
+    margin-top: .2vh;
+}
+
+.uploadeFotoOrVideo{
+    margin-top: .3vh;
+    margin-left: .6vh;
+    font-size: 11px;
+}
+
+.contentTextUpload{
+    /* text-align: justify; */
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+.commentSectionIcon{
+    margin-left: 3vh;
+}
+
+.shareSectionIcon{
+    margin-left: 8vh;
+}
+
+#exampleFormControlTextarea1{
+    margin-top: -2vh;
+    margin-left: 10vh;
+    width: 82%;
+    margin-bottom: 3vh;
+}
+
+#exampleFormControlTextarea2{
+    margin-top: -2vh;
+    margin-left: 10vh;
+    width: 82%;
+    margin-bottom: 1vh;
+}
+
+#exampleFormControlTextarea3{
+    margin-top: 1vh;
+    margin-left: 10vh;
+    width: 82%;
+    margin-bottom: 1vh;
+}
+
+.buttonPost{
+    background-color: #018071;
+    color: white;
+    border-radius: 8px;
+    width: 40vh;
+    border-color: white;
+    margin-top: 2vh;
+}
+
+.popup{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20vh;
+
+    opacity: 0;
+    visibility: hidden;
+}
+
+#popup:target{
+    opacity: 1;
+    visibility: visible;
+}
+
+#unPopup:target{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.closeTag{
+    background-color: white;
+    border-style: none;
+    border-radius: 100px;
+    font-size: 4vh;
+}
+
+.unPop{
+    margin-left: 83vh;
+    margin-top: .5vh;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+#file{
+    margin-left: 10vh;
+    margin-bottom: 1vh;
+}
+
+.iconGmail{
+    margin-left: 6vh;
+}
+
+.disqus{
+    width: 90%;
+    margin-left: 6vh;
+}
+
+
+@media only screen and (max-width: 890px) {
+
+    .cardKomunitas{
+        margin-top: 30px;
+        margin-right: 140px;
+        margin-left: 140px;
+        margin-bottom:100px;
+        box-shadow: 1px 2px 4px 1.5px grey;
+        border-radius: 16px;
+        background-color: white;
+    }
+
+    .formInput{
+        font-size: 14px;
+        font-weight: normal;
+        margin-top: 1vh;
+        border-radius: 20px;
+        width: 60vh;
+        height: 6vh;
+        margin-bottom: 1vh;
+        text-align: left;
+    }
+
+    .buttonUpload{
+        border-radius: 20px;
+        width: 100px;
+        height: 26px;
+        background-color: white;
+        margin-bottom: 1vh;
+    }
+
+    .uploadeFotoOrVideo{
+        font-size: 1.6vh;
+        margin-top: .8vh;
+    }
+
+    .formInput p{
+        margin-top: .6vh;
+    }
+
+    .uploadedImage img{
+        width: 60vh;
+        align-content: center;
+        margin-left: -2.8vh;
+    }
+    
+    .disqus{
+        width: 80%;
+        margin-left: 6vh;
+    }
+
+    .contentTextUpload p{
+        font-size: 2vh;
+    }
+    
+    .titleUpload p{
+        font-size: 4vh;
+    }
+
+    .daerahUpload{
+        font-size: 2vh;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .cardKomunitas{
+        margin-top: 30px;
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-bottom:100px;
+        box-shadow: 1px 2px 4px 1.5px grey;
+        border-radius: 16px;
+        background-color: white;
+    }
+
+    .formInput{
+        font-size: 14px;
+        font-weight: normal;
+        margin-top: 1vh;
+        border-radius: 20px;
+        width: 60vh;
+        height: 6vh;
+        margin-bottom: 1vh;
+        text-align: left;
+    }
+
+    .buttonUpload{
+        border-radius: 20px;
+        width: 100px;
+        height: 26px;
+        background-color: white;
+        margin-bottom: 1vh;
+    }
+
+    .uploadeFotoOrVideo{
+        font-size: 1.6vh;
+        margin-top: .8vh;
+    }
+
+    .formInput p{
+        margin-top: .6vh;
+    }
+
+    .uploadedImage img{
+        width: 60vh;
+        align-content: center;
+        margin-left: -2.8vh;
+    }
+    
+    .disqus{
+        width: 80%;
+        margin-left: 6vh;
+    }
+
+    .contentTextUpload p{
+        font-size: 2vh;
+    }
+    
+    .titleUpload p{
+        font-size: 4vh;
+    }
+
+    .daerahUpload{
+        font-size: 2vh;
+    }
+}
+
+@media only screen and (max-width: 681px) {
+
+    .cardKomunitas{
+        margin-top: 30px;
+        margin-right: 140px;
+        margin-left: 140px;
+        margin-bottom:100px;
+        box-shadow: 1px 2px 4px 1.5px grey;
+        border-radius: 16px;
+        background-color: white;
+    }
+
+    .formInput{
+        font-size: 12px;
+        font-weight: normal;
+        margin-top: 1vh;
+        border-radius: 20px;
+        width: 50vh;
+        height: 6vh;
+        margin-bottom: 1vh;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+
+    .cardKomunitas{
+        margin-top: 30px;
+        margin-right: 140px;
+        margin-left: 140px;
+        margin-bottom:100px;
+        box-shadow: 1px 2px 4px 1.5px grey;
+        border-radius: 16px;
+        background-color: white;
+    }
+
+    .formInput{
+        font-size: 10px;
+        font-weight: normal;
+        margin-top: 1vh;
+        border-radius: 20px;
+        width: 40vh;
+        height: 7vh;
+        margin-bottom: 1vh;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+
+    .cardKomunitas{
+        margin-top: 30px;
+        margin-right: 140px;
+        margin-left: 140px;
+        margin-bottom:100px;
+        box-shadow: 1px 2px 4px 1.5px grey;
+        border-radius: 16px;
+        background-color: white;
+    }
+
+    .formInput{
+        font-size: 10px;
+        font-weight: normal;
+        margin-top: 1vh;
+        border-radius: 20px;
+        width: 30vh;
+        height: 7vh;
+        margin-bottom: 1vh;
+        text-align: left;
+    }
+
+    .uploadedImage img{
+        width: 50vh;
+        align-content: center;
+        margin-left: -2.8vh;
+    }
+}
+
+@media only screen and (max-width: 515px) {
+
+    .cardKomunitas{
+        margin-top: 30px;
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-bottom:100px;
+        box-shadow: 1px 2px 4px 1.5px grey;
+        border-radius: 16px;
+        background-color: white;
+    }
+
+    .formInput{
+        font-size: 10px;
+        font-weight: normal;
+        margin-top: 1vh;
+        border-radius: 20px;
+        width: 40vh;
+        height: 7vh;
+        margin-bottom: 1vh;
+        text-align: left;
+    }
+
+    .uploadedImage img{
+        width: 50vh;
+        align-content: center;
+        margin-left: -2.8vh;
+    }
+
+    .komen-share{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+
+    .cardKomunitas{
+        margin-top: 30px;
+        margin-right: 80px;
+        margin-left: 80px;
+        margin-bottom:100px;
+        box-shadow: 1px 2px 4px 1.5px grey;
+        border-radius: 16px;
+        background-color: white;
+    }
+
+    .formInput{
+        font-size: 10px;
+        font-weight: normal;
+        margin-top: 1vh;
+        border-radius: 20px;
+        width: 40vh;
+        height: 7vh;
+        margin-bottom: 1vh;
+        text-align: left;
+    }
+
+    .uploadedImage img{
+        width: 50vh;
+        align-content: center;
+        margin-left: -2.8vh;
+    }
+}
+
+@media only screen and (max-width: 451px) {
+
+    .cardKomunitas{
+        margin-top: 30px;
+        margin-right: 80px;
+        margin-left: 80px;
+        margin-bottom:100px;
+        box-shadow: 1px 2px 4px 1.5px grey;
+        border-radius: 16px;
+        background-color: white;
+    }
+
+    .formInput{
+        font-size: 10px;
+        font-weight: normal;
+        margin-top: 1vh;
+        border-radius: 20px;
+        width: 15vh;
+        height: 7vh;
+        margin-bottom: 1vh;
+        text-align: left;
+    }
+
+    .uploadedImage img{
+        width: 50vh;
+        align-content: center;
+        margin-left: -2.8vh;
+    }
+
+    .commentSectionIcon {
+        width: 10px;
+        margin-left: 20px;
+    }
+    .shareSectionIcon {
+        width: 10px;
+        margin-left: 100px;
+    }
+
+    .shareCommentText{
+        font-size: 12px;
+    }
+
+    /* .shareCommentIcon{
+
+    } */
+}

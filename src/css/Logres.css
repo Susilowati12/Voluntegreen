@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #91df89;
+  background-position: 40vw;
+}
+/* .logo-logres{
+  position: absolute;
+  left: 15%;
+  width: 450px;
+  top: 30%;
+} */
+/* .container {
+  padding-top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5rem;
+} */
+form {
+  /* margin-left: 20em; */
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.formm{ 
+  width: 83vw;
+  margin-left: 450px;
+  padding-top: 50px;
+}
+/* .title {
+  margin-top: 50%;
+  margin-left: 25%;
+}
+.btn {
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  
+  form {
+    margin-top: 1vh;
+    margin-right: 0em;
+    /* padding-left: 5px; */
+    /* display: grid; */
+    /* align-items: center;
+    justify-content: center; */
+  }
+  /* .logo-logres{
+    position: absolute;
+    left: 20%;
+    right: 25%;
+    top: 0%;
+  } */
+
+}
+@media only screen and (max-width: 1100px) {
+  /* For mobile phones: */
+ 
+  /* .logo-logres{
+    position: absolute;
+    left: 20%;
+    right: 25%;
+    top: 0%;
+  } */
+}
+
+@media only screen and (max-width: 900px){
+.formm{ 
+    width: 83vw;
+    margin-left: 40px;
+    padding-top: 50px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    background-color: white;
+    /* opacity: 0.2; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+}
+
+
+

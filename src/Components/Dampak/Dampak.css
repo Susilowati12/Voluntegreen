@@ -1,0 +1,402 @@
+/* 
+
+#judul {
+   
+    margin-top: 120px;  
+}
+ */
+
+
+
+.home-page, .txt-category, .detail-category, .detail-category-perairan, .detail-category-kesehatan {
+ 
+    width: 100%;
+    /* height: 100vh; */
+    margin-bottom: 90px;
+
+}
+
+
+.row .img-head {
+    position: relative;
+    /* margin-left: 200px; */
+    
+}
+
+svg {
+    position: absolute;
+    width: 60vw;
+    margin: -90px 0 0 210px;
+    transform: scaleX(-1);
+}
+.text-head {
+    width: 600px;
+    margin: 70px 0 0 -30px;
+    line-height: 150%;
+    /* font-size: 50px; */
+}
+
+@media only screen and (max-width: 900px) {
+
+    .bungkusdampak1{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* border: ridge; */
+        align-items: flex-end;   
+        justify-content: flex-end;
+    }
+
+    .bungkusdampak1 h1{
+        display: flex;
+        font-size: 20px;
+        /* border: ridge; */
+        text-align: end;
+    }
+    
+    .row .text-head {
+      
+        width: 100%;
+        padding: 20px;
+        /* border: ridge; */
+        line-height: 150%;
+        font-size: 30px;
+    }
+
+     .img-head {
+        position: absolute;
+        width: 80vw;
+        margin: -60px 2 0 50px;
+        /* margin-left: 100px; */
+        
+    }
+    
+    svg {
+        /* position: absolute; */
+        /* width: 70vw; */
+        /* visibility: ; */
+        display: none;
+        padding-left: 0px;
+        margin: -60px 2 0 50px;
+        /* margin-right: 100px; */
+        
+    }
+
+    .dampakfirst2 {
+        /* text-align: center; */
+        justify-content: center;
+        align-items: center;
+        align-content: flex-end;
+        /* border: ridge; */
+        margin-left: 80px;
+    }
+
+    
+}
+
+
+
+
+/* category */
+.cutebg1{
+    z-index: -1;
+    max-width: 900px;
+}
+
+.pertanyaanDampak{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    /* margin-top: -90px; */
+    /* text-justify: auto; */
+    text-align: center;
+    /* border: ridge; */
+    margin-bottom: 30px;
+}
+
+
+.dampaksinopsisflex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* border: ridge; */
+}
+
+/* .sinopsiscabang{
+    border: ridge;
+    padding: 10px;
+} */
+
+
+.dampakfirst{
+    /* border: ridge; */
+    padding-top: 80px;
+}
+
+
+/* .txt-category #txt-item{
+    font-size: 13px;
+    margin-top: 120px;
+} */
+
+
+@media only screen and (max-width: 900px) {
+    
+    .txt-category {
+        width: 100%;
+        height: 150vh;
+        margin-top: -100px;
+    }
+
+
+    
+}
+
+
+/* detail----------------------------------------------------------------*/
+
+
+.detail-category {
+    position: absolute;
+    margin-top: 130px;
+    background-color: #018072;
+    border-top-left-radius: 90px ;
+    border-top-right-radius: 90px;
+    color: white;
+    height: 120vh;
+    z-index: 0;
+    top: 1200px;
+    left: 0px;
+
+
+
+}
+
+.detail-category .judul-detail {
+    display: inline;
+    text-align: center;
+    padding-top: 140px;
+    
+}
+/* .detail-category .judul-detail h1{
+    display: flex;
+    padding-top: 90px;
+    width: 50rem;
+    margin-left: 200px;
+    text-justify: auto;
+    text-align: center;
+   
+} */
+
+#detail {
+    margin-top: 40px;
+}
+
+.detailjudul{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.detail-item img{
+    border-radius: 25px; 
+}
+.detail-item-pangan img{
+    border-radius: 25px; 
+}
+.detail-item-perairan img{
+    border-radius: 25px; 
+}
+.detail-item-kesehatan img{
+    border-radius: 25px; 
+}
+
+@media only screen and (max-width: 900px) {
+    .detail-category, .judul-detail h1{
+        display: flex;
+        padding-top: 70px;
+        width: 70%;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .detail-category, .detail-category-perairan{
+ 
+        width: 100%;
+        height: 170vh;
+        
+    }
+    .txt-category h3{
+        display: flex;
+        padding-bottom: 30px;
+        width: 70%;
+        margin-left: 50px;
+        text-align: center;
+        
+    }
+
+
+
+    
+}
+
+.detail-category-pangan {
+    position: absolute;
+    background-color: #08B88A;
+    border-top-left-radius: 90px ;
+    border-top-right-radius: 90px;
+    top: 1830px;
+    left: 0px;
+    /* margin: -90px; */
+    /* bottom: 300px; */
+/* padding: 200px; */
+    height: 140vh;
+    /* z-index: 2; */
+
+    
+}
+
+#detail-pangan{
+    margin-top: 60px;
+    text-align: justify;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .detail-item img{
+        width: 100%;
+        
+    }
+   
+     .detail-category-pangan  {
+ 
+        width: 100%;
+        height: 350vh;
+        top: 3550px;    
+        padding-top: 70px;    
+    }
+  
+
+    .detail-category{
+        height: 350vh;
+        top: 2230px;    
+
+
+    }
+    
+
+    .detail-pangan {
+       text-align: left; 
+    }
+
+    .detail-item-pangan img{    
+        border-radius: 50px;
+        
+    }
+
+}
+
+
+
+.detail-category-perairan {
+    position: absolute;
+    display: inline-block;
+    margin-top: 600px;
+    background-color: #91DF89;
+    border-top-left-radius: 90px ;
+    border-top-right-radius: 90px;
+    color: black;
+    height: 160vh;
+    left: 0;
+    top: 2590px;
+}
+
+#detail-perairan{
+    margin-top: 90px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .detail-category-perairan {
+ 
+        width: 100%;
+        height: 200vh;
+        top: 5000px;    
+
+    }
+
+    .detail-category-perairan{
+        margin-top: 1200px;
+
+    }
+
+}
+
+
+
+
+.detail-category-kesehatan {
+    position: absolute;
+    margin-top: 1200px;
+    background-color: #FDE3B3;
+    border-radius: 90px;
+    color: black;
+    height: 150vh;
+    left: 0px;
+    top: 3300px;
+}
+
+#detail-kesehatan{
+    margin-top: 90px;
+  
+}
+
+@media only screen and (max-width: 900px) {
+
+    .detail-category-kesehatan {
+ 
+        width: 100%;
+        height: 150vh;
+        margin-top: 2200px;
+        top: 6300px;
+        
+    }
+
+    .detail-item-kesehatan h3{
+        margin-top: 30px;
+    }
+
+    .detail-item img {
+        margin-top: 30px;
+
+    }
+
+    .detail-item-pangan img{
+        width: 100%;
+        border-radius: 25px;    
+        margin-bottom: 30px;
+    }
+
+    .detail-item-pangan {
+        text-align: center;
+    }
+    .detail-item-perairan {
+        text-align: center;
+    }
+    
+    .detail-item-perairan img{
+        width: 100%;
+        border-radius: 25px;    
+        margin-top: 30px;
+    }
+    .detail-item-kesehatan img{
+        width: 100%;
+        border-radius: 25px;    
+        margin-top: 30px;
+    }
+
+}
+
